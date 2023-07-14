@@ -10,6 +10,13 @@ export default function App() {
       <div style={{ background: "green" }}>0</div>
       <div style={{ background: "green" }}>1</div>
       <div style={{ background: "green" }}>2</div>
+      <div style={{ background: "green" }}>3</div>
+      <div style={{ background: "green" }}>4</div>
+      <div style={{ background: "green" }}>5</div>
+      <div style={{ background: "green" }}>6</div>
+      <div style={{ background: "green" }}>7</div>
+      <div style={{ background: "green" }}>8</div>
+      <div style={{ background: "green" }}>9</div>
     </div>
   );
 }
