@@ -1,4 +1,12 @@
-.App {
-  font-family: sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+.numbers {
   text-align: center;
+}
+.numbers > div {
+  background: red;
+  padding: 1rem;
 }
