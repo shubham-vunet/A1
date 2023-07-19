@@ -12,6 +12,10 @@ export default function App() {
           <h1>Numbers</h1>
           <input value={count} />
         </div>
+        <img
+          alt="Remove Me"
+          src="https://marina-ferreira.github.io/img/tutorials/css/flexbox/flex-wrap/wrap.png"
+        />
         <div className="numbers">
           <div>0</div>
           <div>1</div>
