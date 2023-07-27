@@ -1,8 +1,8 @@
 import "./styles.css";
 
 export default function App() {
-  // show a Grid which contains 10elements in each row,
-  // and show numbers from 0 to 9, 10 to 11, 20 to 29 in each row
+  // show a Grid which contains 3 elements in each row as shown in image
+  // and show numbers from 1 to 3, 4 to 6, 7 to 9 and 10 in each row
   // Bonus If they are square
   const count = 10;
   return (
@@ -13,11 +13,11 @@ export default function App() {
           <input value={count} />
         </div>
         <img
+          style={{ width: "50%" }}
           alt="Remove Me"
           src="https://marina-ferreira.github.io/img/tutorials/css/flexbox/flex-wrap/wrap.png"
         />
         <div className="numbers">
-          <div>0</div>
           <div>1</div>
           <div>2</div>
           <div>3</div>
@@ -27,6 +27,7 @@ export default function App() {
           <div>7</div>
           <div>8</div>
           <div>9</div>
+          <div>10</div>
         </div>
       </div>
     </div>

@@ -7,6 +7,11 @@ body {
   text-align: center;
 }
 .numbers > div {
-  background: red;
+  background: #ff5500cc;
+  padding: 1rem;
+}
+
+.numbers > div:nth-child(even) {
+  background: #f058;
   padding: 1rem;
 }
