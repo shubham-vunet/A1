@@ -7,7 +7,7 @@ import { Clock } from './Clock';
 export function App() {
   return (
     <div className="App">
-      <Grid />
+      {/* <Grid /> */}
       <Clock />
     </div>
   );
